@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İLETİŞİM</title>
+     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background-color:deepskyblue;
+        }
+        main {
+            background-color:deepskyblue;
+        }
+        header {
+            background-color:blue;
+            text-align: center;
+            padding: 10px 0;
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            font-optical-sizing: auto;
+            color: brown;
+        }
+        
+        header div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header div a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        header div img {
+            margin-right: 10px;
+        }
+        label {
+            
+            background-color: black;
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            font-optical-sizing: auto;
+            color:white ;
+            margin:10px;
+            padding:1px;
+        }
+        select {
+            background-color:black;
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            font-optical-sizing: auto;
+            color: white;
+            padding:5px;
+        }
+        button {
+            background-color:black;
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            font-optical-sizing: auto;
+            color: white;
+        }
+        footer {
+            text-align:center;
+            background-color:blue;
+        }
+        #a1 {
+            text-align:center;
+        }
+        #p3 {
+            text-align:center;
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            font-optical-sizing: auto;
+            color: white;
+        }
+    </style>
+</head>
+
+    <header>
+
+        <div>
+        <img src="logo.jpg" width="100" height="100"/>              
+            <a href="/"> Anasayfa </a>
+            <a href="/yemekler"> Yemekler </a>
+            <a href="/drink"> İçecekler </a>
+            <a href="/dessert"> Tatlılar </a>
+            <a href="iletisim"> İletişim </a>
+        </div> 
+    </header>
+    <main>
+        <form action="/submitform" method="POST">
+            <label for="name"> Adınız : </label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="surname"> Soyadınız : </label> 
+            <input type="text" id="surname" name="surname" required><br><br>
+            <label for="email"> E mailiniz :</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="city"> Yaşadığınız şehri seçiniz : </label><br><br>
+            <select id="city" name="city" required><br>
+            <option value="istanbul">Istanbul</option>
+            <option value="ankara">Ankara</option>
+            <option value="izmir"> Izmir</option>
+            <option value="edirne"> Edirne</option>
+            <option value="antalya"> Antalya</option>
+            <option value="izmit"> Izmit</option>
+            </select><br><br>
+
+            <label for="recommendation"> Geri Dönütleriniz: </label><br>
+            <textarea type="recommendation" id="recommendation" name="recommendation" rows="5" columns="100" required></textarea><br><br>
+    <button type="submit"> Gönder </button>
+    </form>
+    </main>
+        <footer>
+            <a id="a1" href="https://www.instagram.com/lina_genlr?igsh=MTJ2b2lyNm5rcTlyag==" target="_blank" > <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"style="width:40px;height:40px;"> </a>
+            <p id="p3">
+               ADRES : Çiçek Neighborhood, 2.Street No:10 Kadıkoy,Istanbul </p>
+    
+        </footer>
+    
+</body>
+</html>
+    

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background-color:lightpink;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        header {
+            background-color:deeppink;
+            text-align: center;
+            padding: 10px 0;
+        }
+        }
+        header div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header div a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        header div img {
+            margin-right: 10px;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightpink;
+            padding: 20px;
+        }
+        p {
+            font-family:"Edu AU VIC WA NT Hand", cursive;
+            font-optical-sizing: auto;
+            color:white;
+        }
+        .gallery {
+            display:flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+        }
+        .photo {
+            margin:10px;
+            text-align:center;
+        }
+        .photo img {
+            width:300px;
+            height:auto;
+            border-radius:10px;
+            box-shadow:0 4px 8px rgba(0,0,0, 0.2);
+        }
+        .photo p {
+            font-family:"Edu AU VIC WA NT Hand", cursive;
+            font-optical-sizing: auto;
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color:deeppink;
+            text-align:center;
+            padding:10px 0;
+            
+        }
+        #a1 {
+            text-align:center;
+        }
+        #p3 {
+            text-align:center;
+        }
+        h3 {
+           font-family: "Edu AU VIC WA NT Hand", cursive;
+           font-optical-sizing: auto;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div>
+        <img src="logo.jpg" width="100" height="100"/>              
+            <a href="/"> Anasayfa </a>
+            <a href="/yemekler"> Yemekler </a>
+            <a href="/drink"> İçecekler </a>
+            <a href="/dessert"> Tatlılar </a>
+            <a href="/iletisim"> İletişim </a>
+        </div> 
+    </header>
+    <main>
+       <div>
+        <img src="korekültür.jpeg" alt="Kore Yemek Kültürü" width="500px" height="150px">
+        <p> Geleneksel lezzetleri ile ünlü olan Kore mutfağında çay çok özel bir yere sahip. Tatlı, acı, ekşi, tuzlu gibi birçok tadı olan çay çeşitlerinin başında dünyaca ünlü ginseng çayı geliyor. Bal, ginseng tozu, hurma ve çam fıstığı ile hazırlanan çayın hem enerji verdiği hem de şifalı özelliklere sahip olduğuna inanılıyor.
+
+        Kore’de kahvaltı kültürü yok, ana öğünlerde tüketilen tüm yemekler kahvaltıda da yeniyor. Kahvaltı sofralarında genellikle çorba, tavuk gibi yemekler tüketilirken ekmek yerine de pilav kullanılıyor.
+
+        Kore yemeklerinin tamamı aynı anda sofraya koyuluyor.
+
+        Pirinç, bildiğimiz tane tane pilav şeklinde değil, pirinç lapası şeklinde sofrada yerini alıyor.
+
+        Koreliler genellikle üç öğün yemek tüketiyor. Kırsalda yaşayan halk, kahvaltıda kızartma, çorba ve pirinç tüketirken şehir merkezinde yaşayanlar süt ve ekmek tüketiyor. Öğle yemeklerinde ise pirinç kızartması ya da pirinç makarnası gibi hafif yemekler tercih ediliyor.
+
+        Akşam yemeklerinde çorba, balık ya da et kızartması ile pirinç lapası tüketiliyor. Hemen hemen tüm yemeklerin yanında kimchi denilen turşu yer alıyor.
+
+        Kore tatlılarında kullanılan malzemeye çok şaşıracaksın: Pirinç. Pirinç kullanılarak yapılan tatlılar genellikle akşam yemeklerinden sonra tüketiliyor. Ayrıca sarı ve siyah susam kullanılarak yapılan kurabiyeler de Kore’ye özgü lezzetler arasında yer alıyor.
+</p></div>
+        <h3> MENÜMÜZ </h3>
+        <div class ="gallery">
+         
+            <div class="photo">
+         <img src="kimchi.jpg" alt="KİMCHİ">
+                <h3> KİMCHİ </h3>
+         <p> "Kimchi" genellikle bir sebze ve aroma verici baharatlar karışımından oluşur. En bilinen ve yaygın malzeme Çin lahanası olmakla beraber bölgesel ve mevsimsel çeşitlemeler mevcuttur. Turp, sarımsak, kırmızı biber, taze soğan, mürekkep balığı, istiridye, diğer deniz ürünleri, taze zencefil, tuz ve şeker kullanılır.</p>   
+        </div>
+
+            <div class="photo">
+
+                <img src="bibimbap.jpeg" alt="BİBİMBAP">
+                <h3> BİBİMBAP </h3>
+                <p> "Bibimbap" kelime olarak karışık pilav anlamına gelmektedir. Bir kasede, sote edilmiş sebzeler, acı biber ezmesi, yumurta ve dilimlenmiş et parçaları eşliğinde sıcak pilav üzerine servis edilir. Yemeğin hemen öncesinde tüm malzemeler birbirine karıştırılır. Bibimbap soğuk veya sıcak olarak servis edilebilir.</p>
+            
+            </div>
+
+            <div class="photo">
+                <img src="bulgogidana.jpg" alt="DANA BULGOGİ">
+                <h3> DANA BULGOGİ </h3>
+              <p> Korece “bul” ateş ve “gogi” et içeren bul-gogi kelimesinden gelmektedir. İçeriğinde dana eti,bulgogi sos, havuç, soğan yeşil soğan bulunur ayrıca üzeri için de susam kullanılır.Korede barbekü restoranları çok popülerdir ve bulgogi sosun bu popülerlikte etkisi büyüktür.  Evlerde etleri tavada pişilirken sıklıkla kullanılır. Etleri 30 dakika buzdolabında marine edeceğiniz bu tarif oldukça zahmetsiz, pratik ve lezzetli.</p>
+            </div>
+
+            <div class="photo">
+                <img src="hobakjuk.jpg" alt="HOBAKJUK">
+                <h3> HOBAKJUK </h3>
+                <p> Hobak-juk veya balkabağı lapası, balkabağı ve yapışkan pirinç unuyla yapılan çeşitli Kore lapası veya juktur. İyileşen hastalar veya yaşlılar geleneksel olarak bu pürüzsüz ve doğal tatlı yulaf lapasını alırlar.</p>
+             
+            </div>
+
+            <div class="photo">
+           <img src="kongguksu.jpg" alt="KONGGUKSU">
+                <p>Soya fasulyesi ıslatılıp kaynatıldıktan sonra
+                kabukları soyularak iyice öğütülmekte
+                ve daha sonra üstüne Kore makarnası
+                konularak yenmektedir. Bu nedenle bu yemeğe "Faulye suyu içinde Kore makarnası" diyebiliriz. Soya fasulyesi
+                protein yönünden oldukça zengin olduğu
+                için Kore’de ‘toprakta yetişen et’ olarak
+                nitelendirilmektedir.
+ </p>
+            </div>
+
+            <div class="photo">
+             <img src="tteokbokki.jpeg" alt="TTEOKBOKKİ">
+                <h3> TTEOKBOKKİ </h3>
+                <p>  'Tteokbokki' için; Kore sokak lezzetleri arasında yıldızı en çok parlayan, Kore mutfağının en popüler yemeği dersek, abartmış olmayız herhalde. Özellikle silindir şeklinde kesilmiş (garaetteok) pirinç kekleri kullanılarak hazırlanır. Farklı tariflerde birçok farklı şekilde hazırlansada en bilinen hali gochuhang'lı (kore acı biber ezmesi) acı sos içersinde pişirilerek hazırlanan şeklidir. Kendine has tadı ile denemeniz gereken tarifler listesine eklemeniz gereken bir yemek.  </p>
+            </div>
+
+            <div class="photo">
+             <img src="japchae.jpg" alt="JAPCHAE">
+                <h3> JAPCHAE </h3>
+                <p> Faydaları saymakla bitmeyen kuşkonmaz geleneksel Kore Japchae'siyle buluşuyor. Bol mantarlı, bol sebzeli, klasikten farklı tam bir 21.yüzyıl Japchae tarifi.</p>
+            </div>
+
+            <div class="photo">
+                <img src="gimbap.jpg" alt="GİMBAP">
+                <h3> GİMBAP </h3>
+               <p> Kimbap, en temel haliyle bolca pişirilmiş pirincin ve ona eşlik eden ton balığı, avokado, somon, füme et ve sebzelerin rulo haline getirilmesiyle yapılan bir yiyecek.İçerisine konukan yiyecekler tercihe göre farklılık gösterebilir. Dış katmanında nöri kullanılıyor. Pirinci bazen buharda bazen ise haşlayarak tercih edilir</p>
+            </div>
+
+            <div class="photo">
+             <img src="tavuk.jpg" alt="DAKGANGJEON">
+                <h3> DAKGANGJEON </h3>
+                <p> “Dak”, Korece tavuk demektir. “Gangjeong” derin yağda kızartılan pirinçten yapılan geleneksel bir tür Kore şekerine verilen isimdir. Geleneksel olarak bu yemek bütün tavuk ile yapılır. Tavuk kanatlarlarıyla da yapımı olukça popülerdir. Biz tarifimizde daha az yağlı ve yapması kolay olduğu için tavuk göğüs kullanmayı tercih ettik. Tatlı, tuzlu ve acı tatları barındıran bu yapışkan tavuk yemeğine acı tatlı soslu tavuk diyebiliriz ve bu yemek Kore mutfağının özgün yemekleri arasındadır.</p>
+            </div>
+
+            <div class="photo">
+             <img src="gyenmari.jpg" alt="GYERANMARİ">
+                <h3> GYERANMARİ </h3>
+                <p> “Gyrenmari” yapılışı ve tadıyla suşilerde de kullınalan Japonların “Tamagoyaki” omletlerine çok benziyor. En büyük farklılık sosu için kullandıkları malzemeler. Kore’nin yan yemeklerinden (banchan) olan bu rulo omlete şeklini vermek oldukça farklı ve eğlenceli.</p>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <a id="a1" href="https://www.instagram.com/lina_genlr?igsh=MTJ2b2lyNm5rcTlyag==" target="_blank" > <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"style="width:40px;height:40px;"> </a>
+        <p id="p3">
+           ADRES : Çiçek Neighborhood, 2.Street No:10 Kadıkoy,Istanbul
+        </p>
+    </footer>
+</body>
+</html>
+    
