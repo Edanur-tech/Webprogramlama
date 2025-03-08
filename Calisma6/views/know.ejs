@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Anasayfa </title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jersey+10&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color:rebeccapurple;
+      }
+      header {
+        background-color:purple;
+        padding:10px;
+      }
+      a {
+        color: floralwhite;
+        padding:10px;
+        font-family: "Poppins", sans-serif;
+      }
+      footer{
+        background-color:purple;
+        padding:10px;
+      }
+      p {
+        color:floralwhite;
+        text-align:center;
+      }
+      .container {
+          display: flex;/*`.container divindeki nesneleri yanyana koyar*/
+          align-items: center; /* İsteğe bağlı: Resim ve paragrafı aynı hizaya getirir */
+      }
+      .container img {
+          margin-right: 20px; /* Resim ile paragraf arasındaki boşluk */
+          max-width: 100%; /* Resmin boyutunu sayfaya göre ayarlar */
+          height: auto; /* Resmin orantılı olarak boyutlanmasını sağlar */
+      }
+      .container p {
+          flex: 1; /* Paragrafın kalan alanı kaplamasını sağlar*/
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="logom.jpg" width="100" height="100" style="border-radius:50%; border-color:purple; border-style:solid; border-width:4px;">
+        <a href="/"> Anasayfa </a>
+        <a href="/know"> Hakkında </a>
+        <a href="/projects"> Projeler </a>
+        <a href="/iletisim"> İletişim </a>
+      </div>
+    </header>
+    <br><br>
+  <div class="container">
+    <img src="profil.jpg" width="100" height="100" style="border-radius:50%; border-width:6px;">
+
+    <p> Ad : Linda<br> 
+        Soyad : İklim <br>
+        Yaş : 28 <br>
+        Doğum Tarihi : 26/06/2000 <br>
+        Bölüm : Yazılım Mühendisliği <br>
+        Hobiler : Dil öğrenme, kitap okuma, film ve dizi izlemek </p>
+  </div>
+    <p> Öncelikle, merhabalar! Çeviri sayfama hoşgeldiniz.Kısaca kendimden biraz bahsetmem gerekirse, ben Edanur. Şuan tam olarak yedi dil bilen bir polygotum (türkçe de dahil olmak üzere). Bu sayfa aslında insanlarla daha fazla bağlantı oluşturabilmek için kullandığım bir araç. Ve aynı zamanda sizlerden öneri ve şikayetler alarak da eksik yanlarımı ve iyi yanlarımı görme fırsatı bulduğum bir yer. </p><br><br>
+
+    <p> Aslında ben bir Yazılım mühendisiyim ve mesleğimi aktif olarak yapmaktayım. Dil öğrenmeyi de seven biri olduğumdan ve bir çok dil bildiğimden neden çeviri ile de uğraşmayayım diye düşündüm. İkisini de birlikte götürebilirdim gayet. Yani o zamanlar öyle düşünüyordum. Her ne kadar düşündüğüm gibi olsa da bazı zamanlar ikisini bir arada götürmek gerçekten zor oluyor, özellikle uğraştırıcı çeviriler aldığım zaman. Ama her şeye rağmen mutluyum.</p><br><br>
+
+    <p> Sitemi ziyaret ettiğiniz için teşekkür ederim. Merak ediyorsanız, siteye yüklemiş oldğum örnek çeviri çalışmalarıma göz atabilir ve düşüncelerinizi benimle paylaşabilirsiniz. Hepinize sağlıklı, huzurlu ve mutlu günler ! </p> <br><br>
+
+    <footer> 
+      <div class="footer">
+        <a href="https://www.instagram.com/">
+          <img src="instagram.jpeg" width="50" height="50" style="border-radius:50%;border-style:solid; border-width:6px;"></a>
+          <a href="https://tr.linkedin.com/">
+            <img src="linkedin.png" width="50" height="50" style="border-radius:50%; border-style:solid; border-width:6px;">  
+          </a>
+        <a href="https://web.whatsapp.com/">
+          <img src="whatsapp.png" width="50" height="50" style="border-radius:50%; border-style:solid; border-width:6px;">
+        </a>
+        </div>
+    </footer>
