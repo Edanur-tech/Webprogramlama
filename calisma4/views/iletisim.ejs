@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jersey+10&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image:url("film.jpg");
+        }
+        header {
+            background-color:lightpink;
+            padding:10px;
+        }
+        a {
+            color: darkred;
+            padding:15px;
+            font-family: "Jersey 10", sans-serif;
+        }
+        label {
+            color:white;
+            background-color:lightpink;
+            font-family: "Jersey 10", sans-serif;
+        }
+        button {
+            color:white;
+            padding:10px;
+            border-radius:25%;
+            background-color:lightpink;
+            font-family: "Jersey 10", sans-serif;
+        }
+        footer{
+            background-color:lightpink;
+            padding:10px;
+        }
+        p{
+            color:darkred;
+            text-align:center;
+            font-family: "Jersey 10", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="blue.jpg" width="100" height="100" style="border-radius:50%;">
+            <a href="/"> Anasayfa </a>
+            <a href="/film"> Film </a>
+            <a href="/drama"> Dizi </a>
+            <a href="/iletisim"> İletişim </a>
+        </div>
+    </header>
+<br><br>
+    <form action="/submitForm" method="POST">
+       <label for="name"> Ad:</label>
+        <input type="text" id="name", name="name" required><br><br>
+        <label for="surname">Soyad:</label>
+        <input type="text", id="surname", name="surname" required><br><br>
+        <label for ="email">Email:</label>
+        <input type="email",id="email", name="email" required><br><br>
+        <label for="phone">Telefon:</label>
+        <input type="tel", id="phone", name="phone" placeholder="(555)-555-5555" required><br><br>
+        <label for="message"> Mesaj:</label><br>
+        <textarea type="message",id="message", name="message" rows="5" columns="50" required></textarea><br><br>
+
+     <button type="submit"> Gönder </button>
+        <br><br>
+    </form>
+        
+        <footer>
+
+          <p> Bu Sayfa WatcDude'a aittir &copy; 2024 </p>            
+        </footer>
+    
+</body>
