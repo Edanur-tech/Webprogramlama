@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+      header {
+          background-color:darkgoldenrod;
+          padding:10px;
+      }
+        body {
+            background-image:url("White Modern Minimalist Signature Brand Logo.jpg");
+        }
+        a{
+            color:beige;
+            padding:10px;
+        }
+        footer {
+            background-color:darkgoldenrod;
+            padding:10px;
+        }
+        label{
+            color:darkgoldenrod;
+        }
+        button {
+            color:beige;
+            background-color:darkgoldenrod;
+            padding:10px;
+            border-radius:50%;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+  <header>
+    <div>
+        <img src="Pink Watercolour Flower Shop Logo.jpg" width="50" height="50">
+          <a href="/">Anasayfa</a>
+          <a href="/know">Hakkımızda</a>
+          <a href="/urunler">Ürünlerimiz</a>
+          <a href="/iletisim">İletişim</a>
+
+
+        
+    </div>
+   </header>
+    <br><br>
+    <form action="/submitForm" method="POST">
+        <label for = "name"> Ad :</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for ="surname"> Soyad :</label>
+        <input type="surname" id="surname" name="surname" required><br><br>
+        <label for="email"> E Mail :</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Müşteri Öneri ve Şikayetleri :</label><br><br>
+      <textarea type="message" id="message" name="message" rows="5" columns= "100" required></textarea><br><br>
+
+        <button type="submit"> Gönder </button>
+</form>
+    <br><br>
+
+      <footer>
+
+          <a href="/kayit"> Kayıt Ol</a>
+          <a href="/uye"> Giriş </a>
+          
+      </footer>
+
+    
+</body>
